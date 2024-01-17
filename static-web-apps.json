@@ -1,5 +1,12 @@
 {
   "api": {
     "nodeVersion": "16"
-  }
+  },
+  "routes": [
+    {
+      "route": "/static/*",
+      "serve": "/static/*",
+      "statusCode": 200
+    }
+  ]
 }
