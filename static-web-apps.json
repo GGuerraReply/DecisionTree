@@ -1,12 +1,5 @@
 {
   "api": {
     "nodeVersion": "16"
-  },
-  "routes": [
-    {
-      "route": "/react-d3-tree/static/*",
-      "serve": "/static/*",
-      "statusCode": 200
-    }
-  ]
+  }
 }
