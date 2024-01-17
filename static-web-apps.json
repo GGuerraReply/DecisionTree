@@ -4,7 +4,7 @@
   },
   "routes": [
     {
-      "route": "/static/*",
+      "route": "/react-d3-tree/static/*",
       "serve": "/static/*",
       "statusCode": 200
     }
