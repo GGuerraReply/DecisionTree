@@ -1,0 +1,115 @@
+{
+  "name": "Production Capacity from 0.8 to 1.8 MTPA",
+  "children": [
+    {
+      "name": "< 0.7 MTPA",
+      "attributes": {
+        "Department": "Production",
+        "isFullTime": true,
+        "weeklyHours": 80
+      },
+      "children": [
+        {
+          "name": "Stable running condition",
+          "attributes": {
+            "Department": "Fabrication"
+          },
+          "children": [
+            {
+              "name": "SMR TECHNOLOGY",
+              "children": [
+                {
+                  "name": "Referenced Onshore",
+                  "children": [
+                    {
+                      "name": "bH MMS"
+                    },
+                    {
+                      "name": "SHELL MMS"
+                    }
+                  ]
+                },
+                {
+                  "name": "Referenced Offshore",
+                  "children": [
+                    {
+                      "name": "bV MjCO"
+                    },
+                    {
+                      "name": "Chart PSMR"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Variable runing condition",
+          "attributes": {
+            "Department": "Fabrication"
+          },
+          "children": [
+            {
+              "name": "GAS EXPANSION TECHNOLOGY",
+              "children": [
+                {
+                  "name": "APCI AP-C1"
+                },
+                {
+                  "name": "APCI AP-N",
+                  "children": [
+                    {
+                      "name": "Referenced Onshore/Offshore"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "0.7<x<1.8 MTPA",
+      "attributes": {
+        "Department": "Production",
+        "isFullTime": true,
+        "weeklyHours": 80
+      },
+      "children": [
+        {
+          "name": "SMR TECHNOLOGY",
+          "attributes": {
+            "Department": "Fabrication"
+          },
+          "children": [
+            {
+              "name": "Referenced Onshore",
+              "children": [
+                {
+                  "name": "Chart PSMR"
+                },
+                {
+                  "name": "APCI AP-SMR"
+                }
+              ]
+            },
+            {
+              "name": "Referenced Offshore",
+              "children": [
+                {
+                  "name": "bV MjCO"
+                },
+                {
+                  "name": "Chart PSMR"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
